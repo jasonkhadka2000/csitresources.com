@@ -1,0 +1,50 @@
+span.c
+{
+    font-size: 80px;
+    color:#0074D9;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+}
+div
+{
+    border: 10px;
+}
+div.menu
+{
+    border-right: 2px ;   
+}
+.homeicon
+{
+    margin:30px;
+}
+.margin
+{
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+div ul li a
+{
+    background-color:grey;
+    color: white;
+    margin-top: 10px;
+    display:block;
+    padding: 10px;
+    text-align: center;
+    border-radius:5px;
+}
+
+ul li a:hover{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+
+}
