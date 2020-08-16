@@ -1,5 +1,11 @@
 <?php
-	$username=$_POST['username'];
+	session_start();
+	$username=$_SESSION['username'];
+	if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true)
+	{
+		echo "please login to continue my dear friend";
+		header("location: login.php");
+	}
 ?>
 
 
@@ -21,7 +27,7 @@
 	<div class="container"><!-- for main dix-->
 		<div class="row"><!-- row 1 open-->
 			<div class="col-sm-2">
-				<a href="index.html" style="color: black;">
+				<a href="index.php" style="color: black;">
 				<i class="material-icons homeicon" style="font-size: 60px;">home</i>
 				</a>
 			</div>
@@ -47,7 +53,11 @@
 						<i class="fa fa-gear" style="font-size:36px;"></i>
 					</div>
 					<div class="col=sm-4 margin">
-						<button type="button" class="btn btn-primary">Logout</button>
+						<button type="button" class="btn btn-primary">
+							<a href="logout.php" style="color: white;">
+								Logout
+							</a>
+						</button>
 					</div>
 				</div>
 			</div>
