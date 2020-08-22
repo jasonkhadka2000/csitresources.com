@@ -5,7 +5,7 @@ span.c
 }
 h1{
     font-family: 'Orbitron', sans-serif;
-    font-size: 70px;
+    font-size: 50px;
 }
 div
 {
@@ -48,8 +48,41 @@ ul li a:hover{
     text-decoration: none;
 
 }
+
+/* for college names*/
 .collegenames
 {
   color:red;
   border-width: 1px 1px 1px 1px;
 }  
+
+
+
+/* for resourceslist.php*/
+
+small
+{
+    color: green;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.group
+{
+    background-color: rgb(196,188,197);
+    padding: 15px;
+    margin-top: 8px;
+}
+
+span
+{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+h2
+{
+    color: blue;
+    padding-bottom: 10px;
+}
