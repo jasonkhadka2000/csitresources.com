@@ -40,6 +40,8 @@
 
 <div class="container">
 
+  
+
 	<strong style="font-size: 40px ;">
     	IT colleges in Nepal.
 	</strong>
@@ -49,6 +51,7 @@
   <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#myModal" style="align-content: right;">
     + Add college
   </button>
+
 
   <table class='collegenames'>
 		<?php

@@ -8,12 +8,30 @@
  </head>
  <body>	
  	<div class="container margin">
+
+ 		<div class="row">
+ 			<div class="col-sm-10">
+
+ 				<h1>These are our resources<h1>
+ 				
+ 			</div>
+ 			<div class="col-sm-2">
+
+ 				<button> Add resource</button>
+ 				
+ 			</div>
+
+ 			
+ 		</div>
+
+
  		<div class="group">
- 		<h2>First semester subjects</h1>
+
+ 		<h2>First semester subjects</h2>
 
  		<div class="row">
  			<div class="col-sm-2">
- 				<a href="firstsemrecources.php">
+ 				<a href="resources.php?semester=firstsemester&subject=physics">
  					<img src="subjectlogos/firstsemester/physics.jpg" width="120" height="80"><br>
  				</a>
  				<small>
@@ -23,7 +41,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="firstsemrecources.php">
+ 				<a href="resources.php?semester=firstsemester&subject=math">
  					<img src="subjectlogos/firstsemester/math.png" width="120" height="80"><br>
  				</a>
  				<small>
@@ -32,7 +50,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="">
+ 				<a href="resources.php?semester=firstsemester&subject=iit">
  					<img src="subjectlogos/firstsemester/iit.jpg" width="120" height="80"><br>
  				</a>
  				<small>
@@ -41,7 +59,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="">
+ 				<a href="resources.php?semester=firstsemester&subject=c">
  					<img src="subjectlogos/firstsemester/c.png" width="120" height="80"><br>
  				</a>
  				<small>
@@ -50,7 +68,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="">
+ 				<a href="resources.php?semester=firstsemester&subject=dl">
  					<img src="subjectlogos/firstsemester/dl.png" width="120" height="80"><br>
  				</a>
  				<small>

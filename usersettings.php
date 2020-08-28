@@ -11,7 +11,7 @@
 
  ?>
 
- <!DOCTYPE html>
+ <!DOCTYPE>
  <html>
  <head>
  	<script src="style/javascript.js"></script>
@@ -30,7 +30,7 @@
 
  <div class="container">
  	
-  <table class='collegenames'>
+  <!-- <table class='collegenames'> -->
 		<?php
 			$details=mysqli_fetch_assoc($result);
 			//while($details=mysqli_fetch_assoc($result))
@@ -54,39 +54,54 @@
         	<td>Username</td>
         	<td><?php echo $details['username'];?></td>
         	<td>
-        		<button type="button" class="btn btn-primary">Edit</button>
+        		<a>
+              <button type="button" class="btn btn-primary">Edit</button>
+            </a>
         	</td>
       	</tr>
       	<tr>
         	<td>Password</td>
         	<td><?php echo $details['password'];?></td>
         	<td>
-        		<button type="button" class="btn btn-primary">Edit</button>
+        		<a>
+              <button type="button" class="btn btn-primary">Edit</button>
+            </a>
         	</td>
       	</tr>
       	<tr>
         	<td>Email</td>
         	<td><?php echo $details['email'];?></td>
         	<td>
-        		<button type="button" class="btn btn-primary">Edit</button>
+        		<a>
+              <button type="button" class="btn btn-primary">Edit</button>
+            </a>
         	</td>
       	</tr>
       	<tr>
         	<td>College</td>
         	<td><?php echo $details['college'];?></td>
         	<td>
-        		<button type="button" class="btn btn-primary">Edit</button>
+        		<a>
+              <button type="button" class="btn btn-primary">Edit</button>
+            </a>
         	</td>
       	</tr>
       	<tr>
         	<td>Contact</td>
         	<td><?php echo $details['contact'];?></td>
         	<td>
-        		<button type="button" class="btn btn-primary">Edit</button>
+        		<a>
+              <button type="button" class="btn btn-primary">Edit</button>
+            </a>
         	</td>
       	</tr>
     </tbody>
   </table>
+
+
+
+
+
 </div>
-s </body>
+ </body>
  </html>
