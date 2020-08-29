@@ -1,8 +1,14 @@
 <?php
+ 
     
     if($_SERVER['REQUEST_METHOD']=="POST")
     {
-
+        $semester=$_GET['semester'];
+        $subject=$_GET['subject'];
+        $folder=$_GET['folder'];
+        $path=$folder.'/'.$semester.'/'.$subject;
+        echo $path;
+    
       $file=$_FILES['file'];
       $filename=$file['name'];
       $filetype=$file['type'];
@@ -22,9 +28,10 @@
         {
           if($filesize<5000000)
           {
-            $filedestination='uploads/'.$filename;
+            $filedestination=$path.'/'.$filename;
+            echo $filedestination;
             move_uploaded_file($filetempname, $filedestination);
-            header("location: filedemo.php?upload success");
+            header("location: ../resources.php?semester=$semester&subject=$subject&upload=success");
           }
           else
           {

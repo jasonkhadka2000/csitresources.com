@@ -31,7 +31,7 @@
 
  		<div class="row">
  			<div class="col-sm-2">
- 				<a href="resources.php?semester=firstsemester&subject=physics">
+ 				<a href="resources.php?semester=firstsemester&subject=physics&upload=false">
  					<img src="subjectlogos/firstsemester/physics.jpg" width="120" height="80"><br>
  				</a>
  				<small>
@@ -41,7 +41,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="resources.php?semester=firstsemester&subject=math">
+ 				<a href="resources.php?semester=firstsemester&subject=math&upload=false">
  					<img src="subjectlogos/firstsemester/math.png" width="120" height="80"><br>
  				</a>
  				<small>
@@ -50,7 +50,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="resources.php?semester=firstsemester&subject=iit">
+ 				<a href="resources.php?semester=firstsemester&subject=iit&upload=false">
  					<img src="subjectlogos/firstsemester/iit.jpg" width="120" height="80"><br>
  				</a>
  				<small>
@@ -59,7 +59,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="resources.php?semester=firstsemester&subject=c">
+ 				<a href="resources.php?semester=firstsemester&subject=c&upload=false">
  					<img src="subjectlogos/firstsemester/c.png" width="120" height="80"><br>
  				</a>
  				<small>
@@ -68,7 +68,7 @@
  				</small>
  			</div>
  			<div class="col-sm-2">
- 				<a href="resources.php?semester=firstsemester&subject=dl">
+ 				<a href="resources.php?semester=firstsemester&subject=dl&upload=false">
  					<img src="subjectlogos/firstsemester/dl.png" width="120" height="80"><br>
  				</a>
  				<small>
