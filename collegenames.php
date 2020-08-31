@@ -58,7 +58,10 @@
 			while($details=mysqli_fetch_assoc($result1))
 			{
 				echo "<tr><td>";
-				echo "<h4 style='color: blue;font-size:30px'>".$details['name']."</h3></td></tr><br>";
+				echo "<h4 style='color: blue;font-size:30px'>".$details['name']."</h3></td>
+        <td><a href='reviews.php?college=".$details['name']."''>
+        <button type='button' class='btn btn-success'>Reviews</button>
+        </a></td></tr><br>";
 
 				echo "<tr><td><h6>"."Address: ".$details['address']."</h6></td>";
 				echo "<td><h6>"."Contact: ".$details['contact']."</h6></td>";

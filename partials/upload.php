@@ -16,7 +16,7 @@
       $fileerror=$file['error'];
       $filesize=$file['size'];
       
-      $allowed=array('pdf','docx','ppt');
+      $allowed=array('pdf','docx','pptx');
 
       $fileextension=explode('.', $filename);
 
@@ -28,9 +28,9 @@
         {
           if($filesize<5000000)
           {
-            $filedestination=$path.'/'.$filename;
+            $filedestination='../'.$path.'/'.$filename;
             echo $filedestination;
-            move_uploaded_file($filetempname, $filedestination);
+            var_dump( move_uploaded_file($filetempname, $filedestination));
             header("location: ../resources.php?semester=$semester&subject=$subject&upload=success");
           }
           else
